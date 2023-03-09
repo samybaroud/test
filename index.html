@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>customer landing page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/remixicon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body dir="rtl">
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="#"
+          ><img src="img/logo.svg" alt="logo" class="logo ms-5 w-60"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex serch-header" role="search">
+            <input type="search" id="search" placeholder="بحث" />
+            <img src="img/أيقونة البحث.svg" alt="" />
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="ri-home-2-fill"></i> <span>الرئيسية</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="ri-product-hunt-line"></i><span>الأصناف</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                ><i class="fas fa-tag"></i><span>العروض</span></a
+              >
+            </li>
+          </ul>
+          <div class="icons-acc">
+            <div class="icons">
+              <a class="bell ICon">
+                <i class="fas fa-bell"></i><span>الإشعارات</span>
+              </a>
+              <a class="cart ICon">
+                <i class="fas fa-shopping-cart"></i> <span>السلة</span>
+              </a>
+            </div>
+            <div class="account" style="border-top: 1px solid #696969; width:100%"> 
+              <a class="account-ICon ICon">
+                <i class="fas fa-user"></i><span>الحساب</span>
+              </a>
+              <div class="pfp-pic">
+                <a href="#" style="padding-left: 0.5rem"
+                  ><i class="fas fa-chevron-down"></i
+                ></a>
+                <a class="account-img" href="#"
+                  ><img src="img/Account.png" alt="Account"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav class="navbar navbar-expand-lg bg-body mb-0">
+      <div class="cont-navbar container">
+        <a href="#"><img src="img/logo.svg" alt="logo" class="logo ms-5"/></a>
+        <form class="d-flex serch-header" role="search">
+          <img src="img/أيقونة البحث.svg" alt="" />
+          <input type="search" id="search" placeholder="...بحث" />
+        </form>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">العروض</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">الأصناف</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">الرئيسية</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <!-- hero sec -->
+    <div class="sec-hero">
+      <div class="container cont-hero">
+        <div class="row row-hero">
+          <div class="col-lg-6 col-hero-right">
+            <p class="title-hero">خصم يصل حتى<span>%50</span></p>
+            <div class="text-div-hero">
+              <p class="subTitle-hero">أجهزة كهربائية</p>
+              <button class="btn-browse-hero">تصفح الآن</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-hero-left">
+            <img src="img/المنتجات.svg" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- categoris -->
+    <div class="sec-categoris">
+      <div class="container cont-categoris">
+        <div class="row row-title-categoris">
+          <p class="col col-title-categoris">
+            <a href="#"><i class="fas fa-chevron-down"></i></a> الأصناف
+          </p>
+          <p class="col col-showMore-categoris">رؤية المزيد</p>
+        </div>
+        <div class="row row-oneLineProduct-categoris">
+          <div class="col">
+            <img src="img/مكواة.png" class="img-category w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/غاز.png" class="img-category w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/وافل.png" class="img-category w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/غاز.png" class="img-category w-100" alt="" />
+          </div>
+        </div>
+        <div class="row row-towLineProduct-categoris">
+          <div class="col">
+            <img src="img/الة قهوة.png" class="img-category w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/مروحه.png" class="img-category w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/خلاط.png" class="img-category w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/ثلاجة.png" class="img-category w-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- highr sale -->
+    <div class="sec-highrSale">
+      <div class="container cont-highrSale">
+        <div class="row row-title-highrSale">
+          <p class="col col-title-highrSale">أعلى مبيعات</p>
+        </div>
+        <div class="row row-LineProduct-highrSale">
+          <div class="col">
+            <img src="img/مكيفات.png" class="img-highrSale w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/جلاية.png" class="img-highrSale w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/تلفاز.png" class="img-highrSale w-100" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/عصارة.png" class="img-highrSale w-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- new product -->
+    <div class="sec-new-product">
+      <div class="container cont-new-product">
+        <div class="row row-title-new-product">
+          <p class="col col-title-new-product">أحدث المنتجات</p>
+        </div>
+        <div class="row row-LineProduct-new-product">
+          <div class="col col-new-product">
+            <img src="img/عجانة.png" class="img-new-product w-100" alt="" />
+            <p class="title-new-product">عجانة سيما</p>
+            <p class="price-new-product">100$</p>
+            <button class="button-new-product">إضافة إلى السلة</button>
+          </div>
+          <div class="col col-new-product">
+            <img src="img/عجانة.png" class="img-new-product w-100" alt="" />
+            <p class="title-new-product">عجانة سيما</p>
+            <p class="price-new-product">100$</p>
+            <button class="button-new-product">إضافة إلى السلة</button>
+          </div>
+          <div class="col col-new-product">
+            <img src="img/عجانة.png" class="img-new-product w-100" alt="" />
+            <p class="title-new-product">عجانة سيما</p>
+            <p class="price-new-product">100$</p>
+            <button class="button-new-product">إضافة إلى السلة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- brands -->
+    <div class="sec-brands">
+      <div class="container cont-brands">
+        <div class="row row-title-brands">
+          <p class="col col-title-brands">الماركات</p>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <div class="row row-title-brands">
+                <div class="col">
+                  <img class="d-block w-50" src="img/samsung.png" alt="" />
+                </div>
+                <div class="col">
+                  <img class="d-block w-50" src="img/lion.png" alt="" />
+                </div>
+                <div class="col">
+                  <img class="d-block w-50" src="img/lg.png" alt="" />
+                </div>
+                <div class="col">
+                  <img class="d-block w-50" src="img/KING.png" alt="" />
+                </div>
+                <div class="col">
+                  <img class="d-block w-50" src="img/Galanz.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- high rated -->
+
+    <!-- footer -->
+    <div class="sec-footer">
+      <div class="container cont-footer">
+        <div class="row row-footer">
+          <div class="col">
+            <div>
+              <a href=""><img src="img/logo.svg" class="w-50" alt="" /></a>
+            </div>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/java.js"></script>
+  </body>
+</html>
